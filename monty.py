@@ -17,14 +17,14 @@ def method():
             losing=losing+1
 
     # STAYING
-    for i in range(0,100000):
-        winDoor = random.randint(0,3)
-        pickDoor = random.randint(0,3)
+    #for i in range(0,100000):
+     #   winDoor = random.randint(0,3)
+      #  pickDoor = random.randint(0,3)
 
-        if (winDoor==pickDoor):
-            stayWinning=stayWinning+1
-        else:
-            losing=losing+1
+       # if (winDoor==pickDoor):
+        #    stayWinning=stayWinning+1
+        #else:
+         #   losing=losing+1 
 
 
 
