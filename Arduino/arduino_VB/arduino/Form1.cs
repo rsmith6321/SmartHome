@@ -66,12 +66,10 @@ namespace arduino
         {
             if (isConnected)
             {
-                if (checkBox1.Checked)
-                {
+                if (checkBox1.Checked){
                     port.Write("#LED1ON\n");
                 }
-                else
-                {
+                else{
                     port.Write("#LED1OF\n");
                 }
             }
