@@ -43,6 +43,7 @@ namespace arduino
             {
                 disconnectFromArduino();
             }
+
         }
 
         void getAvailableComPorts()
@@ -146,6 +147,74 @@ namespace arduino
                     port.Write("#LED3OF\n");
                 }
             }
+        }
+
+        private void CheckBox4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GroupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ExitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void UndoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void SaveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void AboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(" 1.Fist think choose your serial no. of your board \n\n " +
+                "2.Click connect button \n\n " +
+                "3.Pick your LED color on each room \n\n " +
+                "4.Your status will be applied at right side of the screen \n\n ", "How to ues", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Button1_MouseHover(object sender, EventArgs e)
+        {
+            toolStripStatusLabel1.Text = "Connect button";
+        }
+
+        private void Button1_MouseLeave(object sender, EventArgs e)
+        {
+            toolStripStatusLabel1.Text = "";
+        }
+
+        private void ComboBox1_MouseHover(object sender, EventArgs e)
+        {
+            toolStripStatusLabel1.Text = "Choose your serial no.";
+        }
+
+        private void ComboBox1_MouseLeave(object sender, EventArgs e)
+        {
+            toolStripStatusLabel1.Text = "";
+        }
+
+        private void LinkToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.arduinoall.com/?gclid=Cj0KCQjww7HsBRDkARIsAARsIT5sBGYT30FpqtiDpBiJsoOjVOArWvgVpuJonovdgNK6efCbeDjpdXEaAlLNEALw_wcB");
         }
     }
 }
