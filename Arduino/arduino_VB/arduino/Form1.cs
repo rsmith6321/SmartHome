@@ -90,6 +90,7 @@ namespace arduino
             checkBox1.Enabled = true;
             checkBox2.Enabled = true;
             checkBox3.Enabled = true;
+            checkBox4.Enabled = true;
             groupBox1.Enabled = true;
             
 
@@ -99,7 +100,8 @@ namespace arduino
         {
             checkBox1.Enabled = false;
             checkBox2.Enabled = false;
-            checkBox3.Checked = false;
+            checkBox3.Enabled = false;
+            checkBox4.Enabled = false;
             groupBox1.Enabled = false;
            
         }
@@ -107,8 +109,9 @@ namespace arduino
         private void resetDefaults()
         {
             checkBox1.Checked = false;
-            checkBox2.Checked = false;
-            checkBox3.Checked = false;
+            //checkBox2.Checked = false;
+            checkBox3.Checked = false; 
+            checkBox4.Checked = false;
 
         }
 
@@ -149,6 +152,17 @@ namespace arduino
 
         private void CheckBox4_CheckedChanged(object sender, EventArgs e)
         {
+            if (isConnected)
+            {
+                if (checkBox4.Checked)
+                {
+                    port.Write("#LED4ON\n");
+                }
+                else
+                {
+                    port.Write("#LED4OF\n");
+                }
+            }
 
         }
 

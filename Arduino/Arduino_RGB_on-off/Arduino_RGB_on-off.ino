@@ -125,6 +125,29 @@ void loop() {
       }   
     }
 
+    else if(commandString.equals("LED4"))
+    {
+      
+      boolean LedRGBState = getLedRGBState();
+      
+
+       if(LedRGBState == true)
+      {
+//        turnLedOn(led1Pin);
+         turnLedRGBOn(R);
+         turnLedRGBOn(G);
+         turnLedRGBOn(B);
+         
+      }
+
+      else{
+//        turnLedOff(led1Pin);
+         turnLedOff(R);
+         turnLedOff(G);
+         turnLedOff(B);
+      }   
+    }
+
     else if(commandString.equals("LED1")and commandString.equals("LED2"))
     {
       boolean LedRedState = getLedRedState();
@@ -200,6 +223,19 @@ boolean getLedBlueState()
   return state;
 }
 
+boolean getLedRGBState()
+{
+  boolean state = false;
+  if(inputString.substring(5,7).equals("ON"))
+  {
+    state = true;
+  }else
+  {
+    state = false;
+  }
+  return state;
+}
+
 void getCommand()
 {
   if(inputString.length()>0)
@@ -211,6 +247,7 @@ void getCommand()
 void turnLedRedOn(int pin)
 {
 //  digitalWrite(pin,HIGH);
+    
     analogWrite(R, 255);
     analogWrite(G, 0);
     analogWrite(B, 0);
@@ -231,6 +268,45 @@ void turnLedBlueOn(int pin)
     analogWrite(R, 0);
     analogWrite(G, 0);
     analogWrite(B, 255);
+}
+
+void turnLedRGBOn(int pin)
+{
+  for(;;){
+    int i = 0;
+    int j = 0;
+    
+    for(i=0;i<=255;i++){
+              analogWrite(R, i);
+              analogWrite(G, 0);
+              analogWrite(B, 0);   
+              delay(10);
+        if(i==255){
+          for(j=255 ; j > 0 ; j--){
+              analogWrite(R, j);
+              analogWrite(G, 0);
+              analogWrite(B, 0);   
+              delay(10);        
+          }         
+        }
+      }
+
+      for(i=0;i<=255;i++){
+              analogWrite(R, 0);
+              analogWrite(G, i);
+              analogWrite(B, 0);   
+              delay(10);
+        if(i==255){
+          for(j=255 ; j > 0 ; j--){
+              analogWrite(R, 0);
+              analogWrite(G, j);
+              analogWrite(B, 0);   
+              delay(10);         
+          }         
+        }
+      }
+  delay(10);
+  }
 }
 
 void turnLedOff(int pin)
