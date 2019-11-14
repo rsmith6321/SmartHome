@@ -62,18 +62,7 @@ namespace arduino
             enableControls();
         }
 
-        private void CheckBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            if (isConnected)
-            {
-                if (checkBox1.Checked){
-                    port.Write("#LED1ON\n");
-                }
-                else{
-                    port.Write("#LED1OF\n");
-                }
-            }
-        }
+        
 
         private void disconnectFromArduino()
         {
@@ -87,10 +76,10 @@ namespace arduino
 
         private void enableControls()
         {
-            checkBox1.Enabled = true;
-            checkBox2.Enabled = true;
-            checkBox3.Enabled = true;
-            checkBox4.Enabled = true;
+            RGB1_checkBox1.Enabled = true;
+            RGB1_checkBox2.Enabled = true;
+            RGB1_checkBox3.Enabled = true;
+            RGB1_checkBox4.Enabled = true;
             groupBox1.Enabled = true;
             
 
@@ -98,20 +87,20 @@ namespace arduino
 
         private void disableControls()
         {
-            checkBox1.Enabled = false;
-            checkBox2.Enabled = false;
-            checkBox3.Enabled = false;
-            checkBox4.Enabled = false;
+            RGB1_checkBox1.Enabled = false;
+            RGB1_checkBox2.Enabled = false;
+            RGB1_checkBox3.Enabled = false;
+            RGB1_checkBox4.Enabled = false;
             groupBox1.Enabled = false;
            
         }
 
         private void resetDefaults()
         {
-            checkBox1.Checked = false;
+            RGB1_checkBox1.Checked = false;
             //checkBox2.Checked = false;
-            checkBox3.Checked = false; 
-            checkBox4.Checked = false;
+            RGB1_checkBox3.Checked = false; 
+            RGB1_checkBox4.Checked = false;
 
         }
 
@@ -119,12 +108,25 @@ namespace arduino
         {
 
         }
+        
+        private void CheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (isConnected)
+            {
+                if (RGB1_checkBox1.Checked){
+                    port.Write("#LED1ON\n");
+                }
+                else{
+                    port.Write("#LED1OF\n");
+                }
+            }
+        }
 
         private void CheckBox2_CheckedChanged(object sender, EventArgs e)
         {
             if (isConnected)
             {
-                if (checkBox2.Checked)
+                if (RGB1_checkBox2.Checked)
                 {
                     port.Write("#LED2ON\n");
                 }
@@ -139,7 +141,7 @@ namespace arduino
         {
             if (isConnected)
             {
-                if (checkBox3.Checked)
+                if (RGB1_checkBox3.Checked)
                 {
                     port.Write("#LED3ON\n");
                 }
@@ -152,18 +154,17 @@ namespace arduino
 
         private void CheckBox4_CheckedChanged(object sender, EventArgs e)
         {
-            if (isConnected)
-            {
-                if (checkBox4.Checked)
-                {
-                    port.Write("#LED4ON\n");
-                }
-                else
-                {
-                    port.Write("#LED4OF\n");
-                }
-            }
-
+            //if (isConnected)
+            //{
+            //    if (RGB1_checkBox4.Checked)
+            //    {
+            //        port.Write("#LED4ON\n");
+            //    }
+            //    else
+            //    {
+            //        port.Write("#LED4OF\n");
+            //    }
+            //}
         }
 
         private void GroupBox3_Enter(object sender, EventArgs e)
@@ -227,6 +228,141 @@ namespace arduino
         private void LinkToolStripMenuItem_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://www.arduinoall.com/?gclid=Cj0KCQjww7HsBRDkARIsAARsIT5sBGYT30FpqtiDpBiJsoOjVOArWvgVpuJonovdgNK6efCbeDjpdXEaAlLNEALw_wcB");
+        }
+
+        private void RGB2_checkBox5_CheckedChanged(object sender, EventArgs e)
+        {
+            if (isConnected)
+            {
+                if (RGB2_checkBox5.Checked)
+                {
+                    port.Write("#LED5ON\n");
+                }
+                else
+                {
+                    port.Write("#LED5OF\n");
+                }
+            }
+        }
+
+        private void RGB2_checkBox6_CheckedChanged(object sender, EventArgs e)
+        {
+            if (isConnected)
+            {
+                if (RGB2_checkBox6.Checked)
+                {
+                    port.Write("#LED6ON\n");
+                }
+                else
+                {
+                    port.Write("#LED6OF\n");
+                }
+            }
+        }
+
+        private void RGB2_checkBox7_CheckedChanged(object sender, EventArgs e)
+        {
+            if (isConnected)
+            {
+                if (RGB2_checkBox7.Checked)
+                {
+                    port.Write("#LED7ON\n");
+                }
+                else
+                {
+                    port.Write("#LED7OF\n");
+                }
+            }
+        }
+
+        private void checkBox9_CheckedChanged(object sender, EventArgs e)
+        {
+            if (isConnected)
+            {
+                if (RGB3_checkBox9.Checked)
+                {
+                    port.Write("#LED9ON\n");
+                }
+                else
+                {
+                    port.Write("#LED9OF\n");
+                }
+            }
+        }
+
+        private void RGB3_checkBox10_CheckedChanged(object sender, EventArgs e)
+        {
+            if (isConnected)
+            {
+                if (RGB3_checkBox10.Checked)
+                {
+                    port.Write("#LED10ON\n");
+                }
+                else
+                {
+                    port.Write("#LED10OF\n");
+                }
+            }
+        }
+
+        private void RGB3_checkBox11_CheckedChanged(object sender, EventArgs e)
+        {
+            if (isConnected)
+            {
+                if (RGB3_checkBox11.Checked)
+                {
+                    port.Write("#LED11ON\n");
+                }
+                else
+                {
+                    port.Write("#LED11OF\n");
+                }
+            }
+        }
+
+        private void checkBox13_CheckedChanged(object sender, EventArgs e)
+        {
+            if (isConnected)
+            {
+                if (RGB4_checkBox13.Checked)
+                {
+                    port.Write("#LED13ON\n");
+                }
+                else
+                {
+                    port.Write("#LED13OF\n");
+                }
+            }
+        }
+
+        private void RGB4_checkBox14_CheckedChanged(object sender, EventArgs e)
+        {
+            if (isConnected)
+            {
+                if (RGB4_checkBox14.Checked)
+                {
+                    port.Write("#LED14ON\n");
+                }
+                else
+                {
+                    port.Write("#LED14OF\n");
+                }
+            }
+        }
+
+        private void RGB4_checkBox15_CheckedChanged(object sender, EventArgs e)
+        {
+            if (isConnected)
+            {
+                if (RGB4_checkBox15.Checked)
+                {
+                    port.Write("#LED15ON\n");
+                }
+                else
+                {
+                    port.Write("#LED15OF\n");
+                }
+            }
         }
     }
 }

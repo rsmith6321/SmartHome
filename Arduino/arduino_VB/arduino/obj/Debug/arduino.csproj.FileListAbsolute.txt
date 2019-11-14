@@ -17,3 +17,12 @@ C:\Users\Win10\Desktop\arduino\arduino_VB\arduino\obj\Debug\arduino.Properties.R
 C:\Users\Win10\Desktop\arduino\arduino_VB\arduino\obj\Debug\arduino.csproj.GenerateResource.cache
 C:\Users\Win10\Desktop\arduino\arduino_VB\arduino\obj\Debug\arduino.exe
 C:\Users\Win10\Desktop\arduino\arduino_VB\arduino\obj\Debug\arduino.pdb
+C:\Users\Win10\Desktop\SmartHome\arduino_VB\arduino\bin\Debug\arduino.exe.config
+C:\Users\Win10\Desktop\SmartHome\arduino_VB\arduino\bin\Debug\arduino.exe
+C:\Users\Win10\Desktop\SmartHome\arduino_VB\arduino\bin\Debug\arduino.pdb
+C:\Users\Win10\Desktop\SmartHome\arduino_VB\arduino\obj\Debug\arduino.csprojAssemblyReference.cache
+C:\Users\Win10\Desktop\SmartHome\arduino_VB\arduino\obj\Debug\arduino.Form1.resources
+C:\Users\Win10\Desktop\SmartHome\arduino_VB\arduino\obj\Debug\arduino.Properties.Resources.resources
+C:\Users\Win10\Desktop\SmartHome\arduino_VB\arduino\obj\Debug\arduino.csproj.GenerateResource.cache
+C:\Users\Win10\Desktop\SmartHome\arduino_VB\arduino\obj\Debug\arduino.exe
+C:\Users\Win10\Desktop\SmartHome\arduino_VB\arduino\obj\Debug\arduino.pdb

@@ -38,22 +38,22 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.RGB4_checkBox16 = new System.Windows.Forms.CheckBox();
+            this.RGB4_checkBox15 = new System.Windows.Forms.CheckBox();
+            this.RGB4_checkBox14 = new System.Windows.Forms.CheckBox();
+            this.RGB4_checkBox13 = new System.Windows.Forms.CheckBox();
+            this.RGB3_checkBox12 = new System.Windows.Forms.CheckBox();
+            this.RGB3_checkBox11 = new System.Windows.Forms.CheckBox();
+            this.RGB3_checkBox10 = new System.Windows.Forms.CheckBox();
+            this.RGB3_checkBox9 = new System.Windows.Forms.CheckBox();
+            this.RGB2_checkBox8 = new System.Windows.Forms.CheckBox();
+            this.RGB2_checkBox7 = new System.Windows.Forms.CheckBox();
+            this.RGB2_checkBox6 = new System.Windows.Forms.CheckBox();
+            this.RGB2_checkBox5 = new System.Windows.Forms.CheckBox();
+            this.RGB1_checkBox4 = new System.Windows.Forms.CheckBox();
+            this.RGB1_checkBox3 = new System.Windows.Forms.CheckBox();
+            this.RGB1_checkBox2 = new System.Windows.Forms.CheckBox();
+            this.RGB1_checkBox1 = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
@@ -132,22 +132,22 @@
             this.groupBox1.Controls.Add(this.label14);
             this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Controls.Add(this.checkBox16);
-            this.groupBox1.Controls.Add(this.checkBox15);
-            this.groupBox1.Controls.Add(this.checkBox14);
-            this.groupBox1.Controls.Add(this.checkBox13);
-            this.groupBox1.Controls.Add(this.checkBox12);
-            this.groupBox1.Controls.Add(this.checkBox11);
-            this.groupBox1.Controls.Add(this.checkBox10);
-            this.groupBox1.Controls.Add(this.checkBox9);
-            this.groupBox1.Controls.Add(this.checkBox8);
-            this.groupBox1.Controls.Add(this.checkBox7);
-            this.groupBox1.Controls.Add(this.checkBox6);
-            this.groupBox1.Controls.Add(this.checkBox5);
-            this.groupBox1.Controls.Add(this.checkBox4);
-            this.groupBox1.Controls.Add(this.checkBox3);
-            this.groupBox1.Controls.Add(this.checkBox2);
-            this.groupBox1.Controls.Add(this.checkBox1);
+            this.groupBox1.Controls.Add(this.RGB4_checkBox16);
+            this.groupBox1.Controls.Add(this.RGB4_checkBox15);
+            this.groupBox1.Controls.Add(this.RGB4_checkBox14);
+            this.groupBox1.Controls.Add(this.RGB4_checkBox13);
+            this.groupBox1.Controls.Add(this.RGB3_checkBox12);
+            this.groupBox1.Controls.Add(this.RGB3_checkBox11);
+            this.groupBox1.Controls.Add(this.RGB3_checkBox10);
+            this.groupBox1.Controls.Add(this.RGB3_checkBox9);
+            this.groupBox1.Controls.Add(this.RGB2_checkBox8);
+            this.groupBox1.Controls.Add(this.RGB2_checkBox7);
+            this.groupBox1.Controls.Add(this.RGB2_checkBox6);
+            this.groupBox1.Controls.Add(this.RGB2_checkBox5);
+            this.groupBox1.Controls.Add(this.RGB1_checkBox4);
+            this.groupBox1.Controls.Add(this.RGB1_checkBox3);
+            this.groupBox1.Controls.Add(this.RGB1_checkBox2);
+            this.groupBox1.Controls.Add(this.RGB1_checkBox1);
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.groupBox1.Location = new System.Drawing.Point(34, 37);
@@ -201,233 +201,242 @@
             this.label12.TabIndex = 11;
             this.label12.Text = "Home Entrance";
             // 
-            // checkBox16
+            // RGB4_checkBox16
             // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.checkBox16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.checkBox16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.checkBox16.Location = new System.Drawing.Point(574, 564);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(83, 33);
-            this.checkBox16.TabIndex = 21;
-            this.checkBox16.Text = "RGB";
-            this.checkBox16.UseVisualStyleBackColor = false;
+            this.RGB4_checkBox16.AutoSize = true;
+            this.RGB4_checkBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.RGB4_checkBox16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RGB4_checkBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.RGB4_checkBox16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.RGB4_checkBox16.Location = new System.Drawing.Point(574, 564);
+            this.RGB4_checkBox16.Name = "RGB4_checkBox16";
+            this.RGB4_checkBox16.Size = new System.Drawing.Size(83, 33);
+            this.RGB4_checkBox16.TabIndex = 21;
+            this.RGB4_checkBox16.Text = "RGB";
+            this.RGB4_checkBox16.UseVisualStyleBackColor = false;
             // 
-            // checkBox15
+            // RGB4_checkBox15
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.checkBox15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.checkBox15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.checkBox15.Location = new System.Drawing.Point(426, 564);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(117, 33);
-            this.checkBox15.TabIndex = 20;
-            this.checkBox15.Text = "GREEN";
-            this.checkBox15.UseVisualStyleBackColor = false;
+            this.RGB4_checkBox15.AutoSize = true;
+            this.RGB4_checkBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.RGB4_checkBox15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RGB4_checkBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.RGB4_checkBox15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.RGB4_checkBox15.Location = new System.Drawing.Point(426, 564);
+            this.RGB4_checkBox15.Name = "RGB4_checkBox15";
+            this.RGB4_checkBox15.Size = new System.Drawing.Size(117, 33);
+            this.RGB4_checkBox15.TabIndex = 20;
+            this.RGB4_checkBox15.Text = "GREEN";
+            this.RGB4_checkBox15.UseVisualStyleBackColor = false;
+            this.RGB4_checkBox15.CheckedChanged += new System.EventHandler(this.RGB4_checkBox15_CheckedChanged);
             // 
-            // checkBox14
+            // RGB4_checkBox14
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.checkBox14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.checkBox14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox14.Location = new System.Drawing.Point(574, 472);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(81, 33);
-            this.checkBox14.TabIndex = 19;
-            this.checkBox14.Text = "Blue";
-            this.checkBox14.UseVisualStyleBackColor = false;
+            this.RGB4_checkBox14.AutoSize = true;
+            this.RGB4_checkBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.RGB4_checkBox14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RGB4_checkBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.RGB4_checkBox14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.RGB4_checkBox14.Location = new System.Drawing.Point(574, 472);
+            this.RGB4_checkBox14.Name = "RGB4_checkBox14";
+            this.RGB4_checkBox14.Size = new System.Drawing.Size(81, 33);
+            this.RGB4_checkBox14.TabIndex = 19;
+            this.RGB4_checkBox14.Text = "Blue";
+            this.RGB4_checkBox14.UseVisualStyleBackColor = false;
+            this.RGB4_checkBox14.CheckedChanged += new System.EventHandler(this.RGB4_checkBox14_CheckedChanged);
             // 
-            // checkBox13
+            // RGB4_checkBox13
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.checkBox13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.checkBox13.ForeColor = System.Drawing.Color.Red;
-            this.checkBox13.Location = new System.Drawing.Point(426, 472);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(82, 33);
-            this.checkBox13.TabIndex = 18;
-            this.checkBox13.Text = "RED";
-            this.checkBox13.UseVisualStyleBackColor = false;
+            this.RGB4_checkBox13.AutoSize = true;
+            this.RGB4_checkBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.RGB4_checkBox13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RGB4_checkBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.RGB4_checkBox13.ForeColor = System.Drawing.Color.Red;
+            this.RGB4_checkBox13.Location = new System.Drawing.Point(426, 472);
+            this.RGB4_checkBox13.Name = "RGB4_checkBox13";
+            this.RGB4_checkBox13.Size = new System.Drawing.Size(82, 33);
+            this.RGB4_checkBox13.TabIndex = 18;
+            this.RGB4_checkBox13.Text = "RED";
+            this.RGB4_checkBox13.UseVisualStyleBackColor = false;
+            this.RGB4_checkBox13.CheckedChanged += new System.EventHandler(this.checkBox13_CheckedChanged);
             // 
-            // checkBox12
+            // RGB3_checkBox12
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.checkBox12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.checkBox12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.checkBox12.Location = new System.Drawing.Point(164, 583);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(83, 33);
-            this.checkBox12.TabIndex = 17;
-            this.checkBox12.Text = "RGB";
-            this.checkBox12.UseVisualStyleBackColor = false;
+            this.RGB3_checkBox12.AutoSize = true;
+            this.RGB3_checkBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.RGB3_checkBox12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RGB3_checkBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.RGB3_checkBox12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.RGB3_checkBox12.Location = new System.Drawing.Point(164, 583);
+            this.RGB3_checkBox12.Name = "RGB3_checkBox12";
+            this.RGB3_checkBox12.Size = new System.Drawing.Size(83, 33);
+            this.RGB3_checkBox12.TabIndex = 17;
+            this.RGB3_checkBox12.Text = "RGB";
+            this.RGB3_checkBox12.UseVisualStyleBackColor = false;
             // 
-            // checkBox11
+            // RGB3_checkBox11
             // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.checkBox11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.checkBox11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.checkBox11.Location = new System.Drawing.Point(164, 528);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(117, 33);
-            this.checkBox11.TabIndex = 16;
-            this.checkBox11.Text = "GREEN";
-            this.checkBox11.UseVisualStyleBackColor = false;
+            this.RGB3_checkBox11.AutoSize = true;
+            this.RGB3_checkBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.RGB3_checkBox11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RGB3_checkBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.RGB3_checkBox11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.RGB3_checkBox11.Location = new System.Drawing.Point(164, 528);
+            this.RGB3_checkBox11.Name = "RGB3_checkBox11";
+            this.RGB3_checkBox11.Size = new System.Drawing.Size(117, 33);
+            this.RGB3_checkBox11.TabIndex = 16;
+            this.RGB3_checkBox11.Text = "GREEN";
+            this.RGB3_checkBox11.UseVisualStyleBackColor = false;
+            this.RGB3_checkBox11.CheckedChanged += new System.EventHandler(this.RGB3_checkBox11_CheckedChanged);
             // 
-            // checkBox10
+            // RGB3_checkBox10
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.checkBox10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.checkBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox10.Location = new System.Drawing.Point(164, 472);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(81, 33);
-            this.checkBox10.TabIndex = 15;
-            this.checkBox10.Text = "Blue";
-            this.checkBox10.UseVisualStyleBackColor = false;
+            this.RGB3_checkBox10.AutoSize = true;
+            this.RGB3_checkBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.RGB3_checkBox10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RGB3_checkBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.RGB3_checkBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.RGB3_checkBox10.Location = new System.Drawing.Point(164, 472);
+            this.RGB3_checkBox10.Name = "RGB3_checkBox10";
+            this.RGB3_checkBox10.Size = new System.Drawing.Size(81, 33);
+            this.RGB3_checkBox10.TabIndex = 15;
+            this.RGB3_checkBox10.Text = "Blue";
+            this.RGB3_checkBox10.UseVisualStyleBackColor = false;
+            this.RGB3_checkBox10.CheckedChanged += new System.EventHandler(this.RGB3_checkBox10_CheckedChanged);
             // 
-            // checkBox9
+            // RGB3_checkBox9
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.checkBox9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.checkBox9.ForeColor = System.Drawing.Color.Red;
-            this.checkBox9.Location = new System.Drawing.Point(164, 421);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(82, 33);
-            this.checkBox9.TabIndex = 14;
-            this.checkBox9.Text = "RED";
-            this.checkBox9.UseVisualStyleBackColor = false;
+            this.RGB3_checkBox9.AutoSize = true;
+            this.RGB3_checkBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.RGB3_checkBox9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RGB3_checkBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.RGB3_checkBox9.ForeColor = System.Drawing.Color.Red;
+            this.RGB3_checkBox9.Location = new System.Drawing.Point(164, 421);
+            this.RGB3_checkBox9.Name = "RGB3_checkBox9";
+            this.RGB3_checkBox9.Size = new System.Drawing.Size(82, 33);
+            this.RGB3_checkBox9.TabIndex = 14;
+            this.RGB3_checkBox9.Text = "RED";
+            this.RGB3_checkBox9.UseVisualStyleBackColor = false;
+            this.RGB3_checkBox9.CheckedChanged += new System.EventHandler(this.checkBox9_CheckedChanged);
             // 
-            // checkBox8
+            // RGB2_checkBox8
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.checkBox8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.checkBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.checkBox8.Location = new System.Drawing.Point(598, 251);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(83, 33);
-            this.checkBox8.TabIndex = 13;
-            this.checkBox8.Text = "RGB";
-            this.checkBox8.UseVisualStyleBackColor = false;
+            this.RGB2_checkBox8.AutoSize = true;
+            this.RGB2_checkBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.RGB2_checkBox8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RGB2_checkBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.RGB2_checkBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.RGB2_checkBox8.Location = new System.Drawing.Point(598, 251);
+            this.RGB2_checkBox8.Name = "RGB2_checkBox8";
+            this.RGB2_checkBox8.Size = new System.Drawing.Size(83, 33);
+            this.RGB2_checkBox8.TabIndex = 13;
+            this.RGB2_checkBox8.Text = "RGB";
+            this.RGB2_checkBox8.UseVisualStyleBackColor = false;
             // 
-            // checkBox7
+            // RGB2_checkBox7
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.checkBox7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.checkBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.checkBox7.Location = new System.Drawing.Point(598, 212);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(117, 33);
-            this.checkBox7.TabIndex = 12;
-            this.checkBox7.Text = "GREEN";
-            this.checkBox7.UseVisualStyleBackColor = false;
+            this.RGB2_checkBox7.AutoSize = true;
+            this.RGB2_checkBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.RGB2_checkBox7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RGB2_checkBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.RGB2_checkBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.RGB2_checkBox7.Location = new System.Drawing.Point(598, 212);
+            this.RGB2_checkBox7.Name = "RGB2_checkBox7";
+            this.RGB2_checkBox7.Size = new System.Drawing.Size(117, 33);
+            this.RGB2_checkBox7.TabIndex = 12;
+            this.RGB2_checkBox7.Text = "GREEN";
+            this.RGB2_checkBox7.UseVisualStyleBackColor = false;
+            this.RGB2_checkBox7.CheckedChanged += new System.EventHandler(this.RGB2_checkBox7_CheckedChanged);
             // 
-            // checkBox6
+            // RGB2_checkBox6
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.checkBox6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.checkBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox6.Location = new System.Drawing.Point(598, 173);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(81, 33);
-            this.checkBox6.TabIndex = 11;
-            this.checkBox6.Text = "Blue";
-            this.checkBox6.UseVisualStyleBackColor = false;
+            this.RGB2_checkBox6.AutoSize = true;
+            this.RGB2_checkBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.RGB2_checkBox6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RGB2_checkBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.RGB2_checkBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.RGB2_checkBox6.Location = new System.Drawing.Point(598, 173);
+            this.RGB2_checkBox6.Name = "RGB2_checkBox6";
+            this.RGB2_checkBox6.Size = new System.Drawing.Size(81, 33);
+            this.RGB2_checkBox6.TabIndex = 11;
+            this.RGB2_checkBox6.Text = "Blue";
+            this.RGB2_checkBox6.UseVisualStyleBackColor = false;
+            this.RGB2_checkBox6.CheckedChanged += new System.EventHandler(this.RGB2_checkBox6_CheckedChanged);
             // 
-            // checkBox5
+            // RGB2_checkBox5
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.checkBox5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.checkBox5.ForeColor = System.Drawing.Color.Red;
-            this.checkBox5.Location = new System.Drawing.Point(598, 134);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(82, 33);
-            this.checkBox5.TabIndex = 10;
-            this.checkBox5.Text = "RED";
-            this.checkBox5.UseVisualStyleBackColor = false;
+            this.RGB2_checkBox5.AutoSize = true;
+            this.RGB2_checkBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.RGB2_checkBox5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RGB2_checkBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.RGB2_checkBox5.ForeColor = System.Drawing.Color.Red;
+            this.RGB2_checkBox5.Location = new System.Drawing.Point(598, 134);
+            this.RGB2_checkBox5.Name = "RGB2_checkBox5";
+            this.RGB2_checkBox5.Size = new System.Drawing.Size(82, 33);
+            this.RGB2_checkBox5.TabIndex = 10;
+            this.RGB2_checkBox5.Text = "RED";
+            this.RGB2_checkBox5.UseVisualStyleBackColor = false;
+            this.RGB2_checkBox5.CheckedChanged += new System.EventHandler(this.RGB2_checkBox5_CheckedChanged);
             // 
-            // checkBox4
+            // RGB1_checkBox4
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.checkBox4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.checkBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.checkBox4.Location = new System.Drawing.Point(440, 197);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(83, 33);
-            this.checkBox4.TabIndex = 9;
-            this.checkBox4.Text = "RGB";
-            this.checkBox4.UseVisualStyleBackColor = false;
-            this.checkBox4.CheckedChanged += new System.EventHandler(this.CheckBox4_CheckedChanged);
+            this.RGB1_checkBox4.AutoSize = true;
+            this.RGB1_checkBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.RGB1_checkBox4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RGB1_checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.RGB1_checkBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.RGB1_checkBox4.Location = new System.Drawing.Point(440, 197);
+            this.RGB1_checkBox4.Name = "RGB1_checkBox4";
+            this.RGB1_checkBox4.Size = new System.Drawing.Size(83, 33);
+            this.RGB1_checkBox4.TabIndex = 9;
+            this.RGB1_checkBox4.Text = "RGB";
+            this.RGB1_checkBox4.UseVisualStyleBackColor = false;
+            this.RGB1_checkBox4.CheckedChanged += new System.EventHandler(this.CheckBox4_CheckedChanged);
             // 
-            // checkBox3
+            // RGB1_checkBox3
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.checkBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.checkBox3.Location = new System.Drawing.Point(230, 197);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(81, 33);
-            this.checkBox3.TabIndex = 7;
-            this.checkBox3.Text = "Blue";
-            this.checkBox3.UseVisualStyleBackColor = false;
-            this.checkBox3.CheckedChanged += new System.EventHandler(this.CheckBox3_CheckedChanged);
+            this.RGB1_checkBox3.AutoSize = true;
+            this.RGB1_checkBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.RGB1_checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RGB1_checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.RGB1_checkBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.RGB1_checkBox3.Location = new System.Drawing.Point(230, 197);
+            this.RGB1_checkBox3.Name = "RGB1_checkBox3";
+            this.RGB1_checkBox3.Size = new System.Drawing.Size(81, 33);
+            this.RGB1_checkBox3.TabIndex = 7;
+            this.RGB1_checkBox3.Text = "Blue";
+            this.RGB1_checkBox3.UseVisualStyleBackColor = false;
+            this.RGB1_checkBox3.CheckedChanged += new System.EventHandler(this.CheckBox3_CheckedChanged);
             // 
-            // checkBox2
+            // RGB1_checkBox2
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.checkBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.checkBox2.Location = new System.Drawing.Point(317, 197);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(117, 33);
-            this.checkBox2.TabIndex = 6;
-            this.checkBox2.Text = "GREEN";
-            this.checkBox2.UseVisualStyleBackColor = false;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.CheckBox2_CheckedChanged);
+            this.RGB1_checkBox2.AutoSize = true;
+            this.RGB1_checkBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.RGB1_checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RGB1_checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.RGB1_checkBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.RGB1_checkBox2.Location = new System.Drawing.Point(317, 197);
+            this.RGB1_checkBox2.Name = "RGB1_checkBox2";
+            this.RGB1_checkBox2.Size = new System.Drawing.Size(117, 33);
+            this.RGB1_checkBox2.TabIndex = 6;
+            this.RGB1_checkBox2.Text = "GREEN";
+            this.RGB1_checkBox2.UseVisualStyleBackColor = false;
+            this.RGB1_checkBox2.CheckedChanged += new System.EventHandler(this.CheckBox2_CheckedChanged);
             // 
-            // checkBox1
+            // RGB1_checkBox1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.checkBox1.ForeColor = System.Drawing.Color.Red;
-            this.checkBox1.Location = new System.Drawing.Point(142, 197);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(82, 33);
-            this.checkBox1.TabIndex = 5;
-            this.checkBox1.Text = "RED";
-            this.checkBox1.UseVisualStyleBackColor = false;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.CheckBox1_CheckedChanged);
+            this.RGB1_checkBox1.AutoSize = true;
+            this.RGB1_checkBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.RGB1_checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RGB1_checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.RGB1_checkBox1.ForeColor = System.Drawing.Color.Red;
+            this.RGB1_checkBox1.Location = new System.Drawing.Point(142, 197);
+            this.RGB1_checkBox1.Name = "RGB1_checkBox1";
+            this.RGB1_checkBox1.Size = new System.Drawing.Size(82, 33);
+            this.RGB1_checkBox1.TabIndex = 5;
+            this.RGB1_checkBox1.Text = "RED";
+            this.RGB1_checkBox1.UseVisualStyleBackColor = false;
+            this.RGB1_checkBox1.CheckedChanged += new System.EventHandler(this.CheckBox1_CheckedChanged);
             // 
             // pictureBox1
             // 
@@ -485,13 +494,13 @@
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(221, 6);
+            this.toolStripSeparator.Size = new System.Drawing.Size(113, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitToolStripMenuItem.Image")));
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(116, 26);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
             // 
@@ -730,10 +739,10 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox RGB1_checkBox1;
         private System.IO.Ports.SerialPort serialPort1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox RGB1_checkBox2;
+        private System.Windows.Forms.CheckBox RGB1_checkBox3;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
@@ -742,19 +751,19 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.CheckBox checkBox9;
+        private System.Windows.Forms.CheckBox RGB1_checkBox4;
+        private System.Windows.Forms.CheckBox RGB2_checkBox8;
+        private System.Windows.Forms.CheckBox RGB2_checkBox7;
+        private System.Windows.Forms.CheckBox RGB2_checkBox6;
+        private System.Windows.Forms.CheckBox RGB2_checkBox5;
+        private System.Windows.Forms.CheckBox RGB4_checkBox16;
+        private System.Windows.Forms.CheckBox RGB4_checkBox15;
+        private System.Windows.Forms.CheckBox RGB4_checkBox14;
+        private System.Windows.Forms.CheckBox RGB4_checkBox13;
+        private System.Windows.Forms.CheckBox RGB3_checkBox12;
+        private System.Windows.Forms.CheckBox RGB3_checkBox11;
+        private System.Windows.Forms.CheckBox RGB3_checkBox10;
+        private System.Windows.Forms.CheckBox RGB3_checkBox9;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
