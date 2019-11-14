@@ -404,7 +404,7 @@ void initDisplay()
 boolean getLedRedState()
 {
   boolean state = false;
-  if(inputString.substring(5,7).equals("ON"))
+  if(inputString.substring(5,7).equals("ON") || inputString.substring(6,8).equals("ON"))
   {
     state = true;
   }else
@@ -417,7 +417,7 @@ boolean getLedRedState()
 boolean getLedGreenState()
 {
   boolean state = false;
-  if(inputString.substring(5,7).equals("ON"))
+  if(inputString.substring(5,7).equals("ON") || inputString.substring(6,8).equals("ON"))
   {
     state = true;
   }else
@@ -430,7 +430,7 @@ boolean getLedGreenState()
 boolean getLedBlueState()
 {
   boolean state = false;
-  if(inputString.substring(5,7).equals("ON"))
+  if(inputString.substring(5,7).equals("ON") || inputString.substring(6,8).equals("ON"))
   {
     state = true;
   }else
@@ -443,7 +443,7 @@ boolean getLedBlueState()
 boolean getLedRGBState()
 {
   boolean state = false;
-  if(inputString.substring(5,7).equals("ON"))
+  if(inputString.substring(5,7).equals("ON") || inputString.substring(6,8).equals("ON"))
   {
     state = true;
   }else
@@ -455,9 +455,13 @@ boolean getLedRGBState()
 
 void getCommand()
 {
-  if(inputString.length()>0)
+  if(inputString.substring(5,7).equals("ON"))
   {
      commandString = inputString.substring(1,5);
+  }
+  else if(inputString.substring(6,8).equals("ON"))
+  {
+     commandString = inputString.substring(1,6);
   }
 }
 
