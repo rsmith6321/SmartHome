@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\arduino",
+    "\\arduino\\bin",
+    "\\arduino\\obj"
   ],
-  "SelectedNode": "\\arduino.sln",
+  "SelectedNode": "\\arduino\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
