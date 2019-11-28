@@ -9,17 +9,17 @@ int R = 11;
 int G = 12;
 int B = 13;
 
-int R2 = 8;
-int G2 = 9;
-int B2 = 10;
+int R2 = 10;
+int G2 = 8;
+int B2 = 9;
 
-int R3 = 5;
-int G3 = 6;
-int B3 = 7;
+int R3 = 7;
+int G3 = 5;
+int B3 = 6;
 
-int R4 = 2;
-int G4 = 3;
-int B4 = 4;
+int R4 = 4;
+int G4 = 2;
+int B4 = 3;
 
 int digitalPin = 8;
 int val = 0;
@@ -404,7 +404,7 @@ void initDisplay()
 boolean getLedRedState()
 {
   boolean state = false;
-  if(inputString.substring(5,7).equals("ON"))
+  if(inputString.substring(5,7).equals("ON") || inputString.substring(6,8).equals("ON"))
   {
     state = true;
   }else
@@ -417,7 +417,7 @@ boolean getLedRedState()
 boolean getLedGreenState()
 {
   boolean state = false;
-  if(inputString.substring(5,7).equals("ON"))
+  if(inputString.substring(5,7).equals("ON") || inputString.substring(6,8).equals("ON"))
   {
     state = true;
   }else
@@ -430,7 +430,7 @@ boolean getLedGreenState()
 boolean getLedBlueState()
 {
   boolean state = false;
-  if(inputString.substring(5,7).equals("ON"))
+  if(inputString.substring(5,7).equals("ON") || inputString.substring(6,8).equals("ON"))
   {
     state = true;
   }else
@@ -443,7 +443,7 @@ boolean getLedBlueState()
 boolean getLedRGBState()
 {
   boolean state = false;
-  if(inputString.substring(5,7).equals("ON"))
+  if(inputString.substring(5,7).equals("ON") || inputString.substring(6,8).equals("ON"))
   {
     state = true;
   }else
@@ -455,9 +455,12 @@ boolean getLedRGBState()
 
 void getCommand()
 {
-  if(inputString.length()>0)
+  if(inputString.substring(5,7).equals("ON"))
   {
      commandString = inputString.substring(1,5);
+  }else if(inputString.substring(6,8).equals("ON"))
+  {
+     commandString = inputString.substring(1,6);
   }
 }
 
