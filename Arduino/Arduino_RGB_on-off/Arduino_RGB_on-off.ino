@@ -47,7 +47,7 @@ void setup() {
   pinMode(R4, OUTPUT);
   pinMode(G4, OUTPUT);
   pinMode(B4, OUTPUT);
-  pinMode(digitalPin, INPUT);
+//  pinMode(digitalPin, INPUT);
   initDisplay();
 }
 
@@ -155,6 +155,27 @@ void loop() {
       }   
     }
 
+    else if(commandString.equals("LED4"))
+    {
+      
+      boolean LedWhiteState = getLedWhiteState();
+      
+
+       if(LedWhiteState == true)
+      {
+         turnLedWhiteOn(R);
+         turnLedWhiteOn(G);
+         turnLedWhiteOn(B);
+         
+      }
+
+      else{
+         turnLedOff(R);
+         turnLedOff(G);
+         turnLedOff(B);
+      }   
+    }
+
     else if(commandString.equals("LED5"))
     {
       
@@ -214,8 +235,27 @@ void loop() {
          turnLedOff(R2);
          turnLedOff(G2);
          turnLedOff(B2);
-      }   
+      }         
+    }
+
+     else if(commandString.equals("LED8"))
+    {
       
+      boolean LedWhiteState = getLedWhiteState();
+      
+       if(LedWhiteState == true)
+      {
+         turnLedWhiteOn2(R2);
+         turnLedWhiteOn2(G2);
+         turnLedWhiteOn2(B2);
+         
+      }
+
+      else{
+         turnLedOff(R2);
+         turnLedOff(G2);
+         turnLedOff(B2);
+      }         
     }
 
     else if(commandString.equals("LED9"))
@@ -281,6 +321,27 @@ void loop() {
       
     }
 
+    else if(commandString.equals("LED12"))
+    {
+      
+      boolean LedWhiteState = getLedWhiteState();
+      
+       if(LedWhiteState == true)
+      {
+         turnLedWhiteOn3(R3);
+         turnLedWhiteOn3(G3);
+         turnLedWhiteOn3(B3);
+         
+      }
+
+      else{
+         turnLedOff(R3);
+         turnLedOff(G3);
+         turnLedOff(B3);
+      }   
+      
+    }
+
     else if(commandString.equals("LED13"))
     {
       
@@ -333,6 +394,27 @@ void loop() {
          turnLedBlueOn4(R4);
          turnLedBlueOn4(G4);
          turnLedBlueOn4(B4);
+         
+      }
+
+      else{
+         turnLedOff(R4);
+         turnLedOff(G4);
+         turnLedOff(B4);
+      }   
+      
+    }
+
+    else if(commandString.equals("LED16"))
+    {
+      
+      boolean LedWhiteState = getLedWhiteState();
+      
+       if(LedWhiteState == true)
+      {
+         turnLedWhiteOn4(R4);
+         turnLedWhiteOn4(G4);
+         turnLedWhiteOn4(B4);
          
       }
 
@@ -440,7 +522,7 @@ boolean getLedBlueState()
   return state;
 }
 
-boolean getLedRGBState()
+boolean getLedWhiteState()
 {
   boolean state = false;
   if(inputString.substring(5,7).equals("ON") || inputString.substring(6,8).equals("ON"))
@@ -459,6 +541,10 @@ void getCommand()
   {
      commandString = inputString.substring(1,5);
   }else if(inputString.substring(6,8).equals("ON"))
+  {
+     commandString = inputString.substring(1,6);
+  }
+  else if(inputString.substring(6,8).equals("ON"))
   {
      commandString = inputString.substring(1,6);
   }
@@ -539,6 +625,32 @@ void turnLedBlueOn4(int pin)
 {
     analogWrite(R4, 0);
     analogWrite(G4, 0);
+    analogWrite(B4, 255);
+}
+
+void turnLedWhiteOn(int pin)
+{
+//  digitalWrite(pin,HIGH);
+    analogWrite(R, 255);
+    analogWrite(G, 255);
+    analogWrite(B, 255);
+}
+void turnLedWhiteOn2(int pin)
+{
+    analogWrite(R2, 255);
+    analogWrite(G2, 255);
+    analogWrite(B2, 255);
+}
+void turnLedWhiteOn3(int pin)
+{
+    analogWrite(R3, 255);
+    analogWrite(G3, 255);
+    analogWrite(B3, 255);
+}
+void turnLedWhiteOn4(int pin)
+{
+    analogWrite(R4, 255);
+    analogWrite(G4, 255);
     analogWrite(B4, 255);
 }
 

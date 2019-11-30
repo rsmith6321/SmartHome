@@ -156,6 +156,7 @@
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "LED Control";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // label15
             // 
@@ -210,10 +211,11 @@
             this.RGB4_checkBox16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.RGB4_checkBox16.Location = new System.Drawing.Point(574, 564);
             this.RGB4_checkBox16.Name = "RGB4_checkBox16";
-            this.RGB4_checkBox16.Size = new System.Drawing.Size(83, 33);
+            this.RGB4_checkBox16.Size = new System.Drawing.Size(109, 33);
             this.RGB4_checkBox16.TabIndex = 21;
-            this.RGB4_checkBox16.Text = "RGB";
+            this.RGB4_checkBox16.Text = "WHITE";
             this.RGB4_checkBox16.UseVisualStyleBackColor = false;
+            this.RGB4_checkBox16.CheckedChanged += new System.EventHandler(this.RGB4_checkBox16_CheckedChanged);
             // 
             // RGB4_checkBox15
             // 
@@ -239,9 +241,9 @@
             this.RGB4_checkBox14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.RGB4_checkBox14.Location = new System.Drawing.Point(574, 472);
             this.RGB4_checkBox14.Name = "RGB4_checkBox14";
-            this.RGB4_checkBox14.Size = new System.Drawing.Size(81, 33);
+            this.RGB4_checkBox14.Size = new System.Drawing.Size(94, 33);
             this.RGB4_checkBox14.TabIndex = 19;
-            this.RGB4_checkBox14.Text = "Blue";
+            this.RGB4_checkBox14.Text = "BLUE";
             this.RGB4_checkBox14.UseVisualStyleBackColor = false;
             this.RGB4_checkBox14.CheckedChanged += new System.EventHandler(this.RGB4_checkBox14_CheckedChanged);
             // 
@@ -269,10 +271,11 @@
             this.RGB3_checkBox12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.RGB3_checkBox12.Location = new System.Drawing.Point(164, 583);
             this.RGB3_checkBox12.Name = "RGB3_checkBox12";
-            this.RGB3_checkBox12.Size = new System.Drawing.Size(83, 33);
+            this.RGB3_checkBox12.Size = new System.Drawing.Size(109, 33);
             this.RGB3_checkBox12.TabIndex = 17;
-            this.RGB3_checkBox12.Text = "RGB";
+            this.RGB3_checkBox12.Text = "WHITE";
             this.RGB3_checkBox12.UseVisualStyleBackColor = false;
+            this.RGB3_checkBox12.CheckedChanged += new System.EventHandler(this.RGB3_checkBox12_CheckedChanged);
             // 
             // RGB3_checkBox11
             // 
@@ -298,9 +301,9 @@
             this.RGB3_checkBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.RGB3_checkBox10.Location = new System.Drawing.Point(164, 472);
             this.RGB3_checkBox10.Name = "RGB3_checkBox10";
-            this.RGB3_checkBox10.Size = new System.Drawing.Size(81, 33);
+            this.RGB3_checkBox10.Size = new System.Drawing.Size(94, 33);
             this.RGB3_checkBox10.TabIndex = 15;
-            this.RGB3_checkBox10.Text = "Blue";
+            this.RGB3_checkBox10.Text = "BLUE";
             this.RGB3_checkBox10.UseVisualStyleBackColor = false;
             this.RGB3_checkBox10.CheckedChanged += new System.EventHandler(this.RGB3_checkBox10_CheckedChanged);
             // 
@@ -328,10 +331,11 @@
             this.RGB2_checkBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.RGB2_checkBox8.Location = new System.Drawing.Point(598, 251);
             this.RGB2_checkBox8.Name = "RGB2_checkBox8";
-            this.RGB2_checkBox8.Size = new System.Drawing.Size(83, 33);
+            this.RGB2_checkBox8.Size = new System.Drawing.Size(109, 33);
             this.RGB2_checkBox8.TabIndex = 13;
-            this.RGB2_checkBox8.Text = "RGB";
+            this.RGB2_checkBox8.Text = "WHITE";
             this.RGB2_checkBox8.UseVisualStyleBackColor = false;
+            this.RGB2_checkBox8.CheckedChanged += new System.EventHandler(this.RGB2_checkBox8_CheckedChanged);
             // 
             // RGB2_checkBox7
             // 
@@ -357,9 +361,9 @@
             this.RGB2_checkBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.RGB2_checkBox6.Location = new System.Drawing.Point(598, 173);
             this.RGB2_checkBox6.Name = "RGB2_checkBox6";
-            this.RGB2_checkBox6.Size = new System.Drawing.Size(81, 33);
+            this.RGB2_checkBox6.Size = new System.Drawing.Size(94, 33);
             this.RGB2_checkBox6.TabIndex = 11;
-            this.RGB2_checkBox6.Text = "Blue";
+            this.RGB2_checkBox6.Text = "BLUE";
             this.RGB2_checkBox6.UseVisualStyleBackColor = false;
             this.RGB2_checkBox6.CheckedChanged += new System.EventHandler(this.RGB2_checkBox6_CheckedChanged);
             // 
@@ -387,9 +391,9 @@
             this.RGB1_checkBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.RGB1_checkBox4.Location = new System.Drawing.Point(440, 197);
             this.RGB1_checkBox4.Name = "RGB1_checkBox4";
-            this.RGB1_checkBox4.Size = new System.Drawing.Size(83, 33);
+            this.RGB1_checkBox4.Size = new System.Drawing.Size(109, 33);
             this.RGB1_checkBox4.TabIndex = 9;
-            this.RGB1_checkBox4.Text = "RGB";
+            this.RGB1_checkBox4.Text = "WHITE";
             this.RGB1_checkBox4.UseVisualStyleBackColor = false;
             this.RGB1_checkBox4.CheckedChanged += new System.EventHandler(this.CheckBox4_CheckedChanged);
             // 
@@ -400,11 +404,11 @@
             this.RGB1_checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.RGB1_checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.RGB1_checkBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.RGB1_checkBox3.Location = new System.Drawing.Point(230, 197);
+            this.RGB1_checkBox3.Location = new System.Drawing.Point(219, 197);
             this.RGB1_checkBox3.Name = "RGB1_checkBox3";
-            this.RGB1_checkBox3.Size = new System.Drawing.Size(81, 33);
+            this.RGB1_checkBox3.Size = new System.Drawing.Size(94, 33);
             this.RGB1_checkBox3.TabIndex = 7;
-            this.RGB1_checkBox3.Text = "Blue";
+            this.RGB1_checkBox3.Text = "BLUE";
             this.RGB1_checkBox3.UseVisualStyleBackColor = false;
             this.RGB1_checkBox3.CheckedChanged += new System.EventHandler(this.CheckBox3_CheckedChanged);
             // 
@@ -430,7 +434,7 @@
             this.RGB1_checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.RGB1_checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.RGB1_checkBox1.ForeColor = System.Drawing.Color.Red;
-            this.RGB1_checkBox1.Location = new System.Drawing.Point(142, 197);
+            this.RGB1_checkBox1.Location = new System.Drawing.Point(131, 197);
             this.RGB1_checkBox1.Name = "RGB1_checkBox1";
             this.RGB1_checkBox1.Size = new System.Drawing.Size(82, 33);
             this.RGB1_checkBox1.TabIndex = 5;
