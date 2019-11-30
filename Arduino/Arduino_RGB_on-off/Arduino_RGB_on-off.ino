@@ -118,7 +118,6 @@ void loop() {
       
       boolean LedGreenState = getLedGreenState();
       
-
        if(LedGreenState == true)
       {
          turnLedGreenOn(R);
@@ -489,7 +488,8 @@ boolean getLedRedState()
   if(inputString.substring(5,7).equals("ON") || inputString.substring(6,8).equals("ON"))
   {
     state = true;
-  }else
+  }
+  else
   {
     state = false;
   }
@@ -502,7 +502,8 @@ boolean getLedGreenState()
   if(inputString.substring(5,7).equals("ON") || inputString.substring(6,8).equals("ON"))
   {
     state = true;
-  }else
+  }
+  else
   {
     state = false;
   }
@@ -515,7 +516,8 @@ boolean getLedBlueState()
   if(inputString.substring(5,7).equals("ON") || inputString.substring(6,8).equals("ON"))
   {
     state = true;
-  }else
+  }
+  else
   {
     state = false;
   }
@@ -528,7 +530,8 @@ boolean getLedWhiteState()
   if(inputString.substring(5,7).equals("ON") || inputString.substring(6,8).equals("ON"))
   {
     state = true;
-  }else
+  }
+  else
   {
     state = false;
   }
@@ -540,7 +543,8 @@ void getCommand()
   if(inputString.substring(5,7).equals("ON"))
   {
      commandString = inputString.substring(1,5);
-  }else if(inputString.substring(6,8).equals("ON"))
+  }
+  else if(inputString.substring(6,8).equals("ON"))
   {
      commandString = inputString.substring(1,6);
   }
@@ -556,7 +560,6 @@ void turnLedRedOn(int pin)
     analogWrite(R, 255);
     analogWrite(G, 0);
     analogWrite(B, 0);
-    
 }
 void turnLedRedOn2(int pin)
 {
@@ -576,7 +579,6 @@ void turnLedRedOn4(int pin)
     analogWrite(G4, 0);
     analogWrite(B4, 0);    
 }
-
 void turnLedGreenOn(int pin)
 {;
     analogWrite(R, 0);
@@ -601,7 +603,6 @@ void turnLedGreenOn4(int pin)
     analogWrite(G4, 255);
     analogWrite(B4, 0);
 }
-
 void turnLedBlueOn(int pin)
 {
 //  digitalWrite(pin,HIGH);
@@ -627,7 +628,6 @@ void turnLedBlueOn4(int pin)
     analogWrite(G4, 0);
     analogWrite(B4, 255);
 }
-
 void turnLedWhiteOn(int pin)
 {
 //  digitalWrite(pin,HIGH);
@@ -653,7 +653,6 @@ void turnLedWhiteOn4(int pin)
     analogWrite(G4, 255);
     analogWrite(B4, 255);
 }
-
 //void turnLedRGBOn(int pin)
 //{
 //  for(;;){
@@ -725,8 +724,7 @@ void turnLedOff(int pin)
 
     analogWrite(R4, 0);
     analogWrite(G4, 0);
-    analogWrite(B4, 0);
-    
+    analogWrite(B4, 0);   
 }
 
 void serialEvent() {
